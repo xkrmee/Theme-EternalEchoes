@@ -1,0 +1,47 @@
+/* Basic theme style */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Change background color to make bubbles stand out */
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+#content {
+    padding: 20px;
+}
+
+#time-machine {
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.post-time {
+    color: #888;
+    font-size: 0.9em;
+    margin-bottom: 10px;
+}
+
+.post {
+    margin-bottom: 20px;
+    border-radius: 25px; /* Increase border radius */
+    overflow: hidden; /* Prevent content overflow */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Deeper shadow effect */
+}
+
+.post .card-body {
+    padding: 20px;
+    border-radius: 25px; /* Increase border radius */
+}
+
+/* Additional styles for better appearance */
+.post.card {
+    border: none;
+    border-radius: 25px; /* Increase border radius */
+}
