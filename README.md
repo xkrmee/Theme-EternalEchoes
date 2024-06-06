@@ -1,3 +1,0 @@
-**EternalEchoes**
-
-Presenting **EternalEchoes** – a bespoke **Typecho** theme designed to encapsulate the essence of timeless narratives and unforgettable moments. Within the digital realm of EternalEchoes, we meticulously curate stories that transcend the constraints of time. Each post serves as a portal to personal milestones, historical marvels, and cherished memories, all seamlessly woven into the fabric of our collective consciousness. With a steadfast commitment to eternal preservation, EternalEchoes invites you to embark on a journey through the echoes that shape our world. Join us as we navigate the currents of memory and legacy, one keystroke at a time.
