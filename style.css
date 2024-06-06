@@ -1,48 +1,69 @@
-/* timeline-theme/style.css */
+/* 样式重置 */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, code, ul, ol, li, dl, dt, dd, form, fieldset, input, textarea, table, th, td {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     background: #f4f4f4;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    color: #333;
+    padding: 20px;
 }
 
-#timeline {
+#content {
+    max-width: 800px;
+    margin: 0 auto;
     background: #fff;
     padding: 20px;
-    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    width: 80%;
-    height: 80%;
-    overflow-y: auto;
+    border-radius: 5px;
 }
 
-.event {
-    position: relative;
+.post {
     margin-bottom: 20px;
-    padding-left: 20px;
-    border-left: 3px solid #2196F3;
 }
 
-.event h3 {
-    margin: 0;
+.post-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.post-title a {
+    text-decoration: none;
     color: #333;
 }
 
-.event p {
-    margin: 5px 0 0;
-    color: #666;
+.post-title a:hover {
+    text-decoration: underline;
 }
 
-.tooltip {
-    position: absolute;
-    background: rgba(0, 0, 0, 0.7);
+.post-content {
+    font-size: 16px;
+}
+
+/* 分页样式 */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.pagination a, .pagination .current {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    color: #333;
+    text-decoration: none;
+}
+
+.pagination a:hover {
+    background-color: #f0f0f0;
+}
+
+.pagination .current {
+    background-color: #333;
     color: #fff;
-    padding: 10px;
-    border-radius: 4px;
     pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.3s;
 }

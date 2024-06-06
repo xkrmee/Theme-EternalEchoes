@@ -1,3 +1,3 @@
-    <?php $this->footer(); ?>
+<?php $this->footer(); ?>
 </body>
 </html>
